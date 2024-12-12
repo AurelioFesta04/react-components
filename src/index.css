@@ -32,16 +32,18 @@ img {
     align-items: center;
 }
 
+/* AppCard */
+
 .card {
     margin: 3rem;
     height: 800px;
     width: 50%;
-    border-radius: 2%;
+    border-radius: 4%;
     box-shadow: 10px 10px 6px 2px #0000000c
 }
 
-/* AppCard */
 .fake-photo {
+    border-radius: 4% 4% 0% 0%;
     background-color: lightcoral;
     display: flex;
     justify-content: center;
@@ -55,6 +57,7 @@ img {
 }
 
 .card-bottom {
+    border-radius: 0% 0% 4% 4%;
     background-color: aqua;
     padding: 1rem;
     height: calc(100% / 3);
